@@ -1,0 +1,13 @@
+.about {
+
+    .container {
+        
+        p {
+
+            &:not(:last-child) {
+                margin-bottom: 60px;
+                // 60px
+            }
+        }
+    }
+}

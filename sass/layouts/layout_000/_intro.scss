@@ -1,0 +1,19 @@
+.intro {
+    .container {
+        padding-bottom: 100px;
+        h2 {
+            font-family: $opensansFont;
+            font-size: 35px;
+            // 47px
+            font-weight: 700;
+            color: $black;
+            margin-bottom: 39px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 970px;
+            width: 100%;
+        }
+    }
+}

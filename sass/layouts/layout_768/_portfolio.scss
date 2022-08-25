@@ -1,0 +1,21 @@
+.portfolio {
+    .container {
+
+        .title {
+            margin-bottom: 67px;
+            // 67px
+        }
+
+        ul {
+
+            li {
+            
+                &:not(:last-child) {
+                    margin-bottom: 120px;
+                    // 130px
+                }
+
+            }
+        }
+    }
+}

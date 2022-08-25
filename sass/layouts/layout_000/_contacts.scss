@@ -1,0 +1,86 @@
+.contacts {
+    
+    .container {
+        padding: 100px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h2 {
+            font-family: $opensansFont;
+            font-size: 34px;
+            text-align: center;
+            font-weight: 700;
+            color: $black;
+            margin-bottom: 21px;
+        }
+
+        .subtitle {
+            font-family: $opensansFont;
+            font-size: 18px;
+            text-align: center;
+            color: black;
+            margin-bottom: 78px;
+            // 78px
+            max-width: 275px;
+            line-height: 25px;
+            
+        }
+
+        .button {
+            font-family: $opensansFont;
+            font-size: 18px;
+            letter-spacing: 0.1em;
+            text-align: center;
+            font-weight: 700;
+            background-color: $black;
+            color: $white;
+            border-radius: 25px;
+            padding: 10px 15px;
+            margin-bottom: 37px;
+            border: 2px solid transparent;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background-color: $grey;
+                
+                transition: all .4s ease-in-out;
+            }
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 44px;
+            li {
+
+                &:not(:last-child) {
+                    margin-right: 30px;
+                    // 60px
+                }
+
+                a {
+                    width: 100%;
+
+                    &:hover .icon-contacts {
+
+                        transform: scale(1.2);
+                    }
+
+                    .icon-contacts {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+
+        p {
+            color: #828282;
+            font-family: $opensansFont;
+            font-size: 14px;
+            line-height: 19px;
+            text-align: center;
+        }
+    }
+}

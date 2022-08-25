@@ -1,0 +1,22 @@
+.contacts {
+    
+    .container {
+
+
+
+        ul {
+            
+            li {
+
+                &:not(:last-child) {
+                    margin-right: 60px;
+                    // 60px
+                }
+
+                
+            }
+        }
+
+       
+    }
+}
